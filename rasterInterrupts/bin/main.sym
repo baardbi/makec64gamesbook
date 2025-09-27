@@ -1,0 +1,7 @@
+.label delayLoop=$863
+.label loop=$811
+.label irq=$856
+.label main=$80e
+.label enableRasterInterrupt=$844
+.label setupRasterInterrupt=$814
+.label disableRasterInterrupt=$84d

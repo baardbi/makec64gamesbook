@@ -1,0 +1,6 @@
+.label umbrellaHighRes=$2000
+.label main=$80e
+.label umbrellaOverlayMulticolor=$2080
+.label umbrellaMulticolor=$2040
+.label umbrellaOverlayHighRes=$20c0
+.label gameLoop=$875

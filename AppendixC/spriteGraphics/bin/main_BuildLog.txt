@@ -1,0 +1,17 @@
+Output dir: /Users/baardbi/Desktop/makec64gamesbookTEMP/AppendixC/spriteGraphics/bin
+parsing
+flex pass 1
+flex pass 2
+flex pass 3
+Output pass
+Writing prg file: /Users/baardbi/Desktop/makec64gamesbookTEMP/AppendixC/spriteGraphics/bin/main.prg
+
+Memory Map
+----------
+Default-segment:
+  $0801-$080c Basic
+  $080e-$0877 Basic End
+  $2000-$20ff Sprites
+
+Writing Vice symbol file: /Users/baardbi/Desktop/makec64gamesbookTEMP/AppendixC/spriteGraphics/bin/main.vs
+Writing Symbol file: main.sym

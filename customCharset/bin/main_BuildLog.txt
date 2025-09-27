@@ -1,0 +1,17 @@
+Output dir: /Users/baardbi/Desktop/makec64gamesbookTEMP/customCharset/bin
+parsing
+flex pass 1
+flex pass 2
+flex pass 3
+Output pass
+Writing prg file: /Users/baardbi/Desktop/makec64gamesbookTEMP/customCharset/bin/main.prg
+
+Memory Map
+----------
+Default-segment:
+  $0801-$080c Basic
+  $080e-$0849 Basic End
+  $3800-$3fff Unnamed
+
+Writing Vice symbol file: /Users/baardbi/Desktop/makec64gamesbookTEMP/customCharset/bin/main.vs
+Writing Symbol file: main.sym

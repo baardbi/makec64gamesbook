@@ -1,0 +1,23 @@
+.label SCREEN_EXTRA_COLOR_1=$d022
+.label SYSTEM=$814 {
+  .label setup=$814
+}
+.label PROCESSOR_PORT=$1
+.label SCREEN_EXTRA_COLOR_2=$d023
+.label SCREEN_CLEAR=$e544
+.label main=$80e
+.label SCREEN_MEMORY_SETUP=$d018
+.label SPRITE_MULTICOLOR=$d01c
+.label INTERRUPT=$84e {
+  .label delayLoop=$89d
+  .label irq=$890
+  .label enableRasterInterrupt=$87e
+  .label setupRasterInterrupt=$84e
+  .label disableRasterInterrupt=$887
+}
+.label SCREEN_CONTROL_2=$d016
+.label SCREEN_BORDER_COLOR=$d020
+.label loop=$811
+.label SPRITE_EXTRA_COLOR_1=$d025
+.label SPRITE_EXTRA_COLOR_2=$d026
+.label SCREEN_BACKGROUND_COLOR=$d021
