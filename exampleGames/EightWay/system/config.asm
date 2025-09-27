@@ -1,0 +1,95 @@
+
+// -------------------------------- CONFIG --------------------------------
+
+// Player:
+.label PLAYER_START_POS_X = 100
+.label PLAYER_START_POS_Y = 100
+.label PLAYER_V_SPEED = 10
+.label PLAYER_H_SPEED = 10
+
+
+// Screen:
+.label SCREEN_WIDTH = 40 // Cols
+.label SCREEN_HEIGHT = 25 // Rows
+.label SCREEN_SIZE = SCREEN_WIDTH * SCREEN_HEIGHT
+
+.label DEFAULT_SCREEN_EXTRA_COLOR_1 = LIGHT_GREY
+.label DEFAULT_SCREEN_EXTRA_COLOR_2 = BROWN
+
+.label DEFAULT_SCREEN_BORDER_COLOR = BLACK
+.label DEFAULT_SCREEN_BACKGROUND_COLOR = BLACK
+
+
+// Sprites:
+.label SPRITE_WIDTH = 24 // Pixels
+.label SPRITE_HEIGHT = 21 // Pixels
+.label SPRITE_SIZE = ((SPRITE_WIDTH * SPRITE_HEIGHT) / 8) + 1 // 64 bytes
+
+.label MAX_NUMBER_OF_SPRITES = 8
+
+.label DEFAULT_SPRITE_EXTRA_COLOR_1 = BLACK
+.label DEFAULT_SPRITE_EXTRA_COLOR_2 = WHITE
+
+
+// Chars:
+.label CHAR_WIDTH = 8 // Pixels
+.label CHAR_HEIGHT = 8 // Pixels
+.label CHAR_SIZE = 8 // Char pattern for 1 char = 8 bytes
+
+
+// Tiles:
+.label TILE_WIDTH = 2 // Chars
+.label TILE_HEIGHT = 2 // Chars
+.label TILE_SIZE = TILE_WIDTH * TILE_HEIGHT
+
+
+// Rooms:
+.label ROOM_WIDTH = 16 // Tiles
+.label ROOM_HEIGHT = 12 // Tiles
+.label ROOM_SIZE = ROOM_WIDTH * ROOM_HEIGHT
+
+.label START_ROOM = 0
+
+.label ROOM_TOP_EDGE = 0
+.label ROOM_BOTTOM_EDGE = ((ROOM_HEIGHT * TILE_HEIGHT) * CHAR_HEIGHT) - SPRITE_HEIGHT
+.label ROOM_LEFT_EDGE = 0
+.label ROOM_RIGHT_EDGE = ((ROOM_WIDTH * TILE_WIDTH) * CHAR_WIDTH) - SPRITE_WIDTH
+
+
+// Map:
+.label MAP_WIDTH = 8 // Rooms
+.label MAP_HEIGHT = 8 // Rooms
+.label MAP_SIZE = MAP_WIDTH * MAP_HEIGHT
+
+
+// HUD:
+.label HUD_WIDTH = 8 // Cols
+.label HUD_HEIGHT = 24 // Rows
+.label HUD_SIZE = HUD_WIDTH * HUD_HEIGHT
+
+.label HUD_START_ROW = 0
+.label HUD_END_ROW = ROOM_HEIGHT * TILE_HEIGHT
+.label HUD_START_COL = ROOM_WIDTH * TILE_WIDTH
+.label HUD_END_COL = HUD_START_COL + HUD_WIDTH
+
+.label HEALTH_START_X = (ROOM_WIDTH * TILE_WIDTH) + 1
+.label HEALTH_START_Y = 2 // Row number
+.label HEALTH_FULL_SYMBOL = 198 // Char number
+.label HEALTH_EMPTY_SYMBOL = 199 // Char number
+.label HEALTH_FULL_SYMBOL_COLOR = RED
+.label HEALTH_EMPTY_SYMBOL_COLOR = WHITE
+
+.label ITEMS_START_X = (ROOM_WIDTH * TILE_WIDTH) + 1
+.label ITEMS_START_Y = 5 // Row number
+.label ITEMS_NOT_COLLECTED_COLOR = BLACK
+.label ITEMS_MAX = 6
+
+.label MAP_LABEL_X = (ROOM_WIDTH * TILE_WIDTH) + 2
+.label MAP_LABEL_Y = 15 // Row number
+.label MAP_LABEL_START_POS = SCREEN_COLOR_RAM + ((MAP_LABEL_Y * SCREEN_WIDTH) + MAP_LABEL_X)
+
+.label MAP_ROOM_START_POS_X = ROOM_WIDTH * TILE_WIDTH
+.label MAP_ROOM_START_POS_Y = 16 // Row number
+.label MAP_ROOM_CURRENT_COLOR = RED
+.label MAP_ROOM_VISITED_COLOR = YELLOW
+.label MAP_ROOM_NOT_VISITED_COLOR = BLACK

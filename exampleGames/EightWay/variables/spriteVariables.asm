@@ -1,0 +1,21 @@
+
+// -------------------------------- SPRITE VARIABLES --------------------------------
+
+spriteXoffset: .byte 0
+spriteYoffset: .byte 0
+
+spriteEdge: .byte 0
+
+newSpriteNr: .byte 0
+
+selfSprite: .byte 0
+otherSprite: .byte 0
+
+spriteType: .byte 0
+spriteXpos: .byte 0
+spriteYpos: .byte 0
+
+spriteCollisionUp: .byte 0
+spriteCollisionDown: .byte 0
+spriteCollisionLeft: .byte 0
+spriteCollisionRight: .byte 0

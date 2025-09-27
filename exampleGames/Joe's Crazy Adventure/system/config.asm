@@ -1,0 +1,77 @@
+
+// ----------------------------------- CONFIG -----------------------------------
+
+// Player:
+.label DEFAULT_PLAYER_LIVES = 3
+
+.label PLAYER_START_POS_X = 48
+.label PLAYER_START_POS_Y = 140
+
+.label DEFAULT_PLAYER_V_SPEED = 7
+.label DEFAULT_PLAYER_H_SPEED = 5
+.label DEFAULT_PLAYER_JUMP_STRENGTH = 40
+
+.label PLAYER_COLOR = LIGHT_RED
+
+.label PLAYER_HITBOX_LEFT = 12
+.label PLAYER_HITBOX_RIGHT = 12
+.label PLAYER_HITBOX_UP = 10
+.label PLAYER_HITBOX_DOWN = 10
+
+// Screen:
+.label SCREEN_WIDTH = 40
+.label SCREEN_HEIGHT = 25
+.label SCREEN_SIZE = SCREEN_WIDTH * SCREEN_HEIGHT
+
+.label DEFAULT_SCREEN_BORDER_COLOR = BLACK
+.label DEFAULT_SCREEN_BACKGROUND_COLOR = BLACK
+.label DEFAULT_SCREEN_EXTRA_COLOR_1 = LIGHT_BLUE
+.label DEFAULT_SCREEN_EXTRA_COLOR_2 = BROWN
+
+// Sprites:
+.label MAX_NUMBER_OF_SPRITES = 4
+
+.label DEFAULT_SPRITE_EXTRA_COLOR_1 = BLACK
+.label DEFAULT_SPRITE_EXTRA_COLOR_2 = WHITE
+
+.label BLANK_SPRITE = 79
+
+// Rooms:
+.label START_SCREEN = 0
+.label GAME_OVER_SCREEN = 1
+.label WIN_SCREEN = 63
+
+.label START_ROOM = 8
+
+.label ROOM_TOP_EDGE = 0
+.label ROOM_BOTTOM_EDGE = 171
+.label ROOM_LEFT_EDGE = 0
+.label ROOM_RIGHT_EDGE = 232
+
+.label TOTAL_NUMBER_OF_ROOMS = 64
+
+.label ROOM_WIDTH = 16 // Tiles
+.label ROOM_HEIGHT = 12 // Tiles
+.label ROOM_SIZE = ROOM_WIDTH * ROOM_HEIGHT
+
+// Map:
+.label MAP_WIDTH = 8 // Rooms
+.label MAP_HEIGHT = 8 // Rooms
+.label MAP_SIZE = MAP_WIDTH * MAP_HEIGHT
+
+// HUD:
+.label HUD_START_POS_X = 32 // Col
+.label HUD_START_POS_Y = 0 // Row
+.label HUD_WIDTH = 8 // Cols
+.label HUD_HEIGHT = 24 // Rows
+
+.label HUD_PLAYER_LIVES_X_POS = HUD_START_POS_X + 1
+.label HUD_PLAYER_LIVES_Y_POS = HUD_START_POS_Y + 8
+.label HUD_MAX_PLAYER_LIVES = 6
+
+.label HUD_SCORE_X_POS = HUD_START_POS_X + 1
+.label HUD_SCORE_Y_POS = HUD_START_POS_Y + 3
+.label HUD_SCORE_DIGITS = 6
+
+.label HUD_PLAYER_LIVES_GRAPHIC = 240
+.label HUD_BLANK_CHAR = 32

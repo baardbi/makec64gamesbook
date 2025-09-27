@@ -1,0 +1,27 @@
+Output dir: /Users/baardbi/Desktop/Joe's Crazy Adventure/bin
+parsing
+flex pass 1
+flex pass 2
+flex pass 3
+Output pass
+Writing prg file: /Users/baardbi/Desktop/Joe's Crazy Adventure/bin/main.prg
+
+Memory Map
+----------
+Default-segment:
+  $0801-$080c Basic
+  $080e-$080d Basic End
+  $0810-$0968 Game Code
+  $0c00-$0c34 Variables
+  $0d00-$0dff Charset Attrib
+  $0e00-$0eff Tileset
+  $0f00-$0fbf HUD
+  $1000-$22ff Music
+  $2400-$37ff Sprites
+  $3800-$3fff Charset
+  $4000-$466a Tables
+  $5000-$5b90 Libraries
+  $7000-$9fff Rooms
+
+Writing Vice symbol file: /Users/baardbi/Desktop/Joe's Crazy Adventure/bin/main.vs
+Writing Symbol file: main.sym

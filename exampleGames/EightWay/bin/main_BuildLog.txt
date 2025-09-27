@@ -1,0 +1,26 @@
+Output dir: /Users/baardbi/Desktop/EightWay/bin
+parsing
+flex pass 1
+flex pass 2
+flex pass 3
+Output pass
+Writing prg file: /Users/baardbi/Desktop/EightWay/bin/main.prg
+
+Memory Map
+----------
+Default-segment:
+  $0801-$080c Basic
+  $080e-$080d Basic End
+  $0810-$0846 Main Program Code
+  $0c00-$0c2c Variables
+  $0d00-$0dff Charset Attrib
+  $0e00-$0eff Tileset
+  $0f00-$0fbf HUD Charmap
+  $2000-$37ff Sprite Patterns
+  $3800-$3fff Charset
+  $4000-$465b Tables
+  $5000-$59c6 Libraries
+  $7000-$9fff Rooms
+
+Writing Vice symbol file: /Users/baardbi/Desktop/EightWay/bin/main.vs
+Writing Symbol file: main.sym

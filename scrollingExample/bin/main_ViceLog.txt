@@ -1,0 +1,378 @@
+Opening monitor command playback file: /Users/baardbi/Desktop/scrolling/bin/main.vs
+Error - failed to find resource data 'PetMe1282Y.ttf'.
+Error - failed to register CBM font.
+ 
+*** VICE Version 3.9 ***
+ 
+Welcome to x64sc, the free portable C64 Emulator.
+ 
+Current VICE team members:
+Pottendo, Marco van den Heuvel, Fabrizio Gennari, Groepaz, Errol Smith, 
+Ingo Korb, Olaf Seibert, Marcus Sutton, Kajtar Zsolt, AreaScout, Bas Wassink, 
+Michael C. Martin, Christopher Phillips, David Hogan, Empathic Qubit, 
+Roberto Muscedere, June Tate-Gans, Pablo Roldan.
+ 
+This is free software with ABSOLUTELY NO WARRANTY.
+See the "About VICE" command for more info.
+ 
+Main: random seed was: 0x68d83fe6
+Main: command line was: /Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/x64sc -logfile /Users/baardbi/Desktop/scrolling/bin/main_ViceLog.txt -moncommands /Users/baardbi/Desktop/scrolling/bin/main.vs /Users/baardbi/Desktop/scrolling/bin/main.prg
+Main: VICE system file directory: '/Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice'.
+Main: VICE system file search path: '/Users/baardbi/.local/share/vice:/Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin:/Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice'.
+Loading system file `/Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/C64/kernal-901227-03.bin'.
+C64MEM: Kernal rev #3 ($03) Sum: 50954 ($C70A) SHA1: 1d503e56df85a62fee696e7618dc5b4e781df1bb.
+Loading system file `/Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/C64/basic-901226-01.bin'.
+Loading system file `/Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/C64/chargen-901225-01.bin'.
+Palette: Loading palette `/Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/PRINTER/mps803.vpl'.
+Loading system file `/Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/PRINTER/nl10.bin'.
+Palette: Loading palette `/Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/PRINTER/nl10.vpl'.
+NL10: Printer driver initialized.
+Palette: Loading palette `/Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/PRINTER/1520.vpl'.
+Loading system file `/Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos1540-325302+3-01.bin'.
+Loading system file `/Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos1541-325302-01+901229-05.bin'.
+Loading system file `/Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos1541ii-251968-03.bin'.
+Loading system file `/Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos1570-315090-01.bin'.
+Loading system file `/Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos1571-310654-05.bin'.
+Loading system file `/Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos1581-318045-02.bin'.
+DriveROM: Error - 2000 ROM image not found. Hardware-level 2000 emulation is not available.
+DriveROM: Error - 4000 ROM image not found. Hardware-level 4000 emulation is not available.
+DriveROM: Error - CMDHD ROM image not found. Hardware-level CMDHD emulation is not available.
+Loading system file `/Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos2031-901484-03+05.bin'.
+Loading system file `/Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos2040-901468-06+07.bin'.
+Loading system file `/Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos3040-901468-11-13.bin'.
+Loading system file `/Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos4040-901468-14-16.bin'.
+Loading system file `/Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos1001-901887+8-01.bin'.
+Loading system file `/Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos9000-300516+7-revC.bin'.
+Drive: Finished loading ROM images.
+VIC-II: Initializing chip model "MOS8565" (63 cycles per line, 312 raster lines).
+Window: using GTK3 backend: OpenGL
+Window: chip_name: VICII
+Window:  screen_size: 384 x 312
+Window:  gfx_size: 320 x 200
+Window:  gfx_position: 32 x 51
+Window:  first/last displayed line: 16 x 287
+Window:  extra offscreen border left/right: 0 x 0
+Window:  scalexy: 2 x 2 sizexy: 1 x 1
+Window:  rmode: 1
+Window:  aspect ratio: 0.936508
+Window:  hstretch: 0 vstretch: 0
+Window:  initializing with width, height: 704 x 507
+OpenGL: Loading vertex shader: /Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/GLSL/viewport.vert
+OpenGL: Loading fragment shader: /Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/GLSL/builtin.frag
+OpenGL: Loading vertex shader: /Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/GLSL/viewport.vert
+OpenGL: Loading fragment shader: /Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/GLSL/builtin-interlaced.frag
+OpenGL: Loading vertex shader: /Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/GLSL/viewport.vert
+OpenGL: Loading fragment shader: /Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/GLSL/bicubic.frag
+OpenGL: Loading vertex shader: /Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/GLSL/viewport.vert
+OpenGL: Loading fragment shader: /Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/GLSL/bicubic-interlaced.frag
+Render thread: Created render thread 0
+OpenGL: Render thread initialised
+Palette: Loading palette `/Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/C64/pepto-palold.vpl'.
+Palette: Loading palette `/Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/C64/pepto-palold.vpl'.
+Sound: Available sound devices: coreaudio dummy fs dump wav voc iff aiff mp3 flac ogg soundmovie
+Keymap: Loading keymap `/Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/C64/gtk3_sym.vkm'.
+Hotkeys: Initializing hotkeys.
+Hotkeys: parsing default file '/Applications/vice-x86-64-gtk3-3.9/VICE.app/Contents/Resources/bin/../share/vice/hotkeys/hotkeys.vhk' for machine C64
+Hotkeys: OK.
+Main CPU: 
+Main CPU: starting at ($FFFC).
+Main CPU: RESET.
+VIC-II: VSP Bug: safe channels are: 16. Emulation of memory corruption is disabled.
+AUTOSTART: Autodetecting image type of `/Users/baardbi/Desktop/scrolling/bin/main.prg'.
+Filesystem Image Probe: Error - Import GCR: Unknown GCR image version 48.
+Filesystem Image: Unknown disk image `/Users/baardbi/Desktop/scrolling/bin/main.prg'.
+Tape: Error - Cannot open file `/Users/baardbi/Desktop/scrolling/bin/main.prg'
+Error - no CRT header found.
+CART: '/Users/baardbi/Desktop/scrolling/bin/main.prg' is not a valid CRT file.
+AUTOSTART: Loading PRG file `/Users/baardbi/Desktop/scrolling/bin/main.prg' with autostart disk image.
+AUTOSTART: Resetting drive 8
+AUTOSTART: Resetting the machine to autostart 'MAIN'
+VIC-II: VSP Bug: safe channels are: 017. Emulation of memory corruption is disabled.
+AUTOSTART: Turning Warp mode on.
+AUTOSTART: `/Users/baardbi/Desktop/scrolling/bin/main.prg' recognized as program/p00 file.
+Monitor playback command: al C:d022 .SCREEN_EXTRA_COLOR_1
+Monitor playback command: al C:ea81 .INTERRUPT_RETURN
+Monitor playback command: al C:d023 .SCREEN_EXTRA_COLOR_2
+Monitor playback command: al C:3cf .CAMERA_SIZE
+Monitor playback command: al C:507a .disableRasterInterrupt
+Monitor playback command: al C:19 .SCREEN_HEIGHT
+Monitor playback command: al C:250b .tempYpos
+Monitor playback command: al C:2500 .screenNr
+Monitor playback command: al C:db48 .SCREEN_COLOR_ROW_21
+Monitor playback command: al C:db20 .SCREEN_COLOR_ROW_20
+Monitor playback command: al C:810 .GAME_CODE_ADDRESS
+Monitor playback command: al C:db98 .SCREEN_COLOR_ROW_23
+Monitor playback command: al C:db70 .SCREEN_COLOR_ROW_22
+Monitor playback command: al C:2501 .showRasterTime
+Monitor playback command: al C:dbc0 .SCREEN_COLOR_ROW_24
+Monitor playback command: al C:1900 .MAP_SIZE
+Monitor playback command: al C:dc0d .INTERRUPT_CONTROL_AND_STATUS1
+Monitor playback command: al C:dd0d .INTERRUPT_CONTROL_AND_STATUS2
+Monitor playback command: al C:250f .charColor
+Monitor playback command: al C:5028 .actions
+Monitor playback command: al C:e80 .SCREEN_RAM_2_ROW_16
+Monitor playback command: al C:da80 .SCREEN_COLOR_ROW_16
+Monitor playback command: al C:e58 .SCREEN_RAM_2_ROW_15
+Monitor playback command: al C:da58 .SCREEN_COLOR_ROW_15
+Monitor playback command: al C:e30 .SCREEN_RAM_2_ROW_14
+Monitor playback command: al C:dad0 .SCREEN_COLOR_ROW_18
+Monitor playback command: al C:e08 .SCREEN_RAM_2_ROW_13
+Monitor playback command: al C:daa8 .SCREEN_COLOR_ROW_17
+Monitor playback command: al C:d019 .INTERRUPT_STATUS
+Monitor playback command: al C:ef8 .SCREEN_RAM_2_ROW_19
+Monitor playback command: al C:daf8 .SCREEN_COLOR_ROW_19
+Monitor playback command: al C:250e .charCol
+Monitor playback command: al C:ed0 .SCREEN_RAM_2_ROW_18
+Monitor playback command: al C:ea8 .SCREEN_RAM_2_ROW_17
+Monitor playback command: al C:d990 .SCREEN_COLOR_ROW_10
+Monitor playback command: al C:5093 .loadMapToScreen1_right
+Monitor playback command: al C:2502 .playMusic
+Monitor playback command: al C:2505 .temp2
+Monitor playback command: al C:de0 .SCREEN_RAM_2_ROW_12
+Monitor playback command: al C:d9e0 .SCREEN_COLOR_ROW_12
+Monitor playback command: al C:2506 .temp3
+Monitor playback command: al C:db8 .SCREEN_RAM_2_ROW_11
+Monitor playback command: al C:d9b8 .SCREEN_COLOR_ROW_11
+Monitor playback command: al C:d90 .SCREEN_RAM_2_ROW_10
+Monitor playback command: al C:da30 .SCREEN_COLOR_ROW_14
+Monitor playback command: al C:2504 .temp1
+Monitor playback command: al C:da08 .SCREEN_COLOR_ROW_13
+Monitor playback command: al C:5028 .INTERRUPT
+Monitor playback command: al C:fc0 .SCREEN_RAM_2_ROW_24
+Monitor playback command: al C:f98 .SCREEN_RAM_2_ROW_23
+Monitor playback command: al C:f70 .SCREEN_RAM_2_ROW_22
+Monitor playback command: al C:f48 .SCREEN_RAM_2_ROW_21
+Monitor playback command: al C:5166 .doneLoadingMapColor
+Monitor playback command: al C:f20 .SCREEN_RAM_2_ROW_20
+Monitor playback command: al C:3e8 .SCREEN_SIZE
+Monitor playback command: al C:2507 .temp4
+Monitor playback command: al C:2000 .COLOR_RAM_BUFFER
+Monitor playback command: al C:50c2 .colorMap
+Monitor playback command: al C:5000 .SYSTEM
+Monitor playback command: al C:8300 .MAP_ROW_19
+Monitor playback command: al C:5176 .loadMapCols_screen_1
+Monitor playback command: al C:5225 .loadMapCols_screen_2
+Monitor playback command: al C:4000 .Screen_Ram_HI_Table
+Monitor playback command: al C:5099 .loadMapToScreen2_right
+Monitor playback command: al C:d020 .SCREEN_BORDER_COLOR
+Monitor playback command: al C:7a00 .MAP_ROW_10
+Monitor playback command: al C:7f00 .MAP_ROW_15
+Monitor playback command: al C:8000 .MAP_ROW_16
+Monitor playback command: al C:8100 .MAP_ROW_17
+Monitor playback command: al C:8200 .MAP_ROW_18
+Monitor playback command: al C:7b00 .MAP_ROW_11
+Monitor playback command: al C:7c00 .MAP_ROW_12
+Monitor playback command: al C:7d00 .MAP_ROW_13
+Monitor playback command: al C:7e00 .MAP_ROW_14
+Monitor playback command: al C:8900 .MAPS_COLOR_ADDRESS
+Monitor playback command: al C:250d .charRow
+Monitor playback command: al C:d01a .INTERRUPT_CONTROL
+Monitor playback command: al C:7000 .MAPS_ADDRESS
+Monitor playback command: al C:504a .dontShowRasterTimer2
+Monitor playback command: al C:5035 .dontShowRasterTimer1
+Monitor playback command: al C:1000 .MUSIC_ADDRESS
+Monitor playback command: al C:19 .CAMERA_HEIGHT
+Monitor playback command: al C:87a .notChar1
+Monitor playback command: al C:889 .notChar2
+Monitor playback command: al C:400 .SCREEN_RAM_1_ROW_0
+Monitor playback command: al C:428 .SCREEN_RAM_1_ROW_1
+Monitor playback command: al C:450 .SCREEN_RAM_1_ROW_2
+Monitor playback command: al C:478 .SCREEN_RAM_1_ROW_3
+Monitor playback command: al C:4a0 .SCREEN_RAM_1_ROW_4
+Monitor playback command: al C:4c8 .SCREEN_RAM_1_ROW_5
+Monitor playback command: al C:4f0 .SCREEN_RAM_1_ROW_6
+Monitor playback command: al C:518 .SCREEN_RAM_1_ROW_7
+Monitor playback command: al C:540 .SCREEN_RAM_1_ROW_8
+Monitor playback command: al C:d016 .SCREEN_CONTROL_2
+Monitor playback command: al C:568 .SCREEN_RAM_1_ROW_9
+Monitor playback command: al C:8400 .MAP_ROW_20
+Monitor playback command: al C:d011 .SCREEN_CONTROL_1
+Monitor playback command: al C:8500 .MAP_ROW_21
+Monitor playback command: al C:5000 .setup
+Monitor playback command: al C:dd00 .CIA_2_PORT_A
+Monitor playback command: al C:509c .doneLoadingMapRight
+Monitor playback command: al C:8600 .MAP_ROW_22
+Monitor playback command: al C:5000 .LIBRARIES_ADDRESS
+Monitor playback command: al C:8700 .MAP_ROW_23
+Monitor playback command: al C:8800 .MAP_ROW_24
+Monitor playback command: al C:315 .INTERRUPT_EXEC_ADDR2_SERVICE
+Monitor playback command: al C:ca0 .SCREEN_RAM_2_ROW_4
+Monitor playback command: al C:cc8 .SCREEN_RAM_2_ROW_5
+Monitor playback command: al C:c50 .SCREEN_RAM_2_ROW_2
+Monitor playback command: al C:c78 .SCREEN_RAM_2_ROW_3
+Monitor playback command: al C:c00 .SCREEN_RAM_2_ROW_0
+Monitor playback command: al C:c28 .SCREEN_RAM_2_ROW_1
+Monitor playback command: al C:d40 .SCREEN_RAM_2_ROW_8
+Monitor playback command: al C:d68 .SCREEN_RAM_2_ROW_9
+Monitor playback command: al C:cf0 .SCREEN_RAM_2_ROW_6
+Monitor playback command: al C:d18 .SCREEN_RAM_2_ROW_7
+Monitor playback command: al C:d021 .SCREEN_BACKGROUND_COLOR
+Monitor playback command: al C:9400 .MAP_ROW_COLOR_11
+Monitor playback command: al C:9500 .MAP_ROW_COLOR_12
+Monitor playback command: al C:798 .SCREEN_RAM_1_ROW_23
+Monitor playback command: al C:9600 .MAP_ROW_COLOR_13
+Monitor playback command: al C:7c0 .SCREEN_RAM_1_ROW_24
+Monitor playback command: al C:9700 .MAP_ROW_COLOR_14
+Monitor playback command: al C:9300 .MAP_ROW_COLOR_10
+Monitor playback command: al C:9c00 .MAP_ROW_COLOR_19
+Monitor playback command: al C:52c4 .doneLoadingMap_screen_2
+Monitor playback command: al C:d018 .SCREEN_MEMORY_SETUP
+Monitor playback command: al C:748 .SCREEN_RAM_1_ROW_21
+Monitor playback command: al C:9800 .MAP_ROW_COLOR_15
+Monitor playback command: al C:770 .SCREEN_RAM_1_ROW_22
+Monitor playback command: al C:9900 .MAP_ROW_COLOR_16
+Monitor playback command: al C:9a00 .MAP_ROW_COLOR_17
+Monitor playback command: al C:720 .SCREEN_RAM_1_ROW_20
+Monitor playback command: al C:9b00 .MAP_ROW_COLOR_18
+Monitor playback command: al C:5080 .scrollRight
+Monitor playback command: al C:509c .dontLoadRightScreen
+Monitor playback command: al C:5215 .doneLoadingMap_screen_1
+Monitor playback command: al C:288 .SCREEN_RAM_HI
+Monitor playback command: al C:5080 .MAP
+Monitor playback command: al C:865 .gameLoop
+Monitor playback command: al C:630 .SCREEN_RAM_1_ROW_14
+Monitor playback command: al C:9f00 .MAP_ROW_COLOR_22
+Monitor playback command: al C:658 .SCREEN_RAM_1_ROW_15
+Monitor playback command: al C:a000 .MAP_ROW_COLOR_23
+Monitor playback command: al C:5e0 .SCREEN_RAM_1_ROW_12
+Monitor playback command: al C:a100 .MAP_ROW_COLOR_24
+Monitor playback command: al C:608 .SCREEN_RAM_1_ROW_13
+Monitor playback command: al C:6d0 .SCREEN_RAM_1_ROW_18
+Monitor playback command: al C:6f8 .SCREEN_RAM_1_ROW_19
+Monitor playback command: al C:680 .SCREEN_RAM_1_ROW_16
+Monitor playback command: al C:9d00 .MAP_ROW_COLOR_20
+Monitor playback command: al C:6a8 .SCREEN_RAM_1_ROW_17
+Monitor playback command: al C:9e00 .MAP_ROW_COLOR_21
+Monitor playback command: al C:7900 .MAP_ROW_9
+Monitor playback command: al C:7800 .MAP_ROW_8
+Monitor playback command: al C:80b .upstartEnd
+Monitor playback command: al C:590 .SCREEN_RAM_1_ROW_10
+Monitor playback command: al C:5b8 .SCREEN_RAM_1_ROW_11
+Monitor playback command: al C:4000 .TABLES_ADDRESS
+Monitor playback command: al C:7100 .MAP_ROW_1
+Monitor playback command: al C:7000 .MAP_ROW_0
+Monitor playback command: al C:5216 .loadMap_screen_2
+Monitor playback command: al C:7300 .MAP_ROW_3
+Monitor playback command: al C:7200 .MAP_ROW_2
+Monitor playback command: al C:7500 .MAP_ROW_5
+Monitor playback command: al C:7400 .MAP_ROW_4
+Monitor playback command: al C:7700 .MAP_ROW_7
+Monitor playback command: al C:50c7 .colorMapCols
+Monitor playback command: al C:813 .gameSetup
+Monitor playback command: al C:7600 .MAP_ROW_6
+Monitor playback command: al C:28 .SCREEN_WIDTH
+Monitor playback command: al C:5167 .loadMap_screen_1
+Monitor playback command: al C:100 .MAP_WIDTH
+Monitor playback command: al C:8b00 .MAP_ROW_COLOR_2
+Monitor playback command: al C:8c00 .MAP_ROW_COLOR_3
+Monitor playback command: al C:8900 .MAP_ROW_COLOR_0
+Monitor playback command: al C:8a00 .MAP_ROW_COLOR_1
+Monitor playback command: al C:1 .PROCESSOR_PORT
+Monitor playback command: al C:2500 .VARIABLES_ADDRESS
+Monitor playback command: al C:4002 .Screen_Memory_Setup_Table
+Monitor playback command: al C:250c .charNr
+Monitor playback command: al C:9100 .MAP_ROW_COLOR_8
+Monitor playback command: al C:9200 .MAP_ROW_COLOR_9
+Monitor playback command: al C:8f00 .MAP_ROW_COLOR_6
+Monitor playback command: al C:9000 .MAP_ROW_COLOR_7
+Monitor playback command: al C:8d00 .MAP_ROW_COLOR_4
+Monitor playback command: al C:8e00 .MAP_ROW_COLOR_5
+Monitor playback command: al C:50a9 .resetScrollMapLeft
+Monitor playback command: al C:d800 .SCREEN_COLOR_ROW_0
+Monitor playback command: al C:d828 .SCREEN_COLOR_ROW_1
+Monitor playback command: al C:810 .main
+Monitor playback command: al C:d850 .SCREEN_COLOR_ROW_2
+Monitor playback command: al C:d878 .SCREEN_COLOR_ROW_3
+Monitor playback command: al C:5040 .dontPlayMusic
+Monitor playback command: al C:d012 .CURRENT_RASTER_LINE
+Monitor playback command: al C:3800 .CHARSET_ADDRESS
+Monitor playback command: al C:889 .doneReadKeyboard
+Monitor playback command: al C:2508 .tempX
+Monitor playback command: al C:2509 .tempY
+Monitor playback command: al C:19 .MAP_HEIGHT
+Monitor playback command: al C:400 .SCREEN_RAM_1
+Monitor playback command: al C:c00 .SCREEN_RAM_2
+Monitor playback command: al C:2400 .CHARSET_ATTRIB_ADDRESS
+Monitor playback command: al C:5166 .doneScrollMapLeft
+Monitor playback command: al C:504d .setupRasterInterrupt
+Monitor playback command: al C:d940 .SCREEN_COLOR_ROW_8
+Monitor playback command: al C:d968 .SCREEN_COLOR_ROW_9
+Monitor playback command: al C:d8a0 .SCREEN_COLOR_ROW_4
+Monitor playback command: al C:d8c8 .SCREEN_COLOR_ROW_5
+Monitor playback command: al C:d8f0 .SCREEN_COLOR_ROW_6
+Monitor playback command: al C:d918 .SCREEN_COLOR_ROW_7
+Monitor playback command: al C:27 .CAMERA_WIDTH
+Monitor playback command: al C:314 .INTERRUPT_EXEC_ADDR1_SERVICE
+Monitor playback command: al C:2800 .SPRITES_ADDRESS
+Monitor playback command: al C:d800 .SCREEN_COLOR_RAM
+Monitor playback command: al C:250a .tempXpos
+Monitor playback command: al C:20 .ZERO_PAGE_ADDRESS
+Monitor playback command: al C:2503 .temp
+Monitor playback command: al C:5074 .enableRasterInterrupt
+Monitor playback command: al C:2510 .scrollX
+Closed monitor command playback file: /Users/baardbi/Desktop/scrolling/bin/main.vs
+Main CPU: RESET.
+sound (coreaudio_init): Found audio device with no outputs: Built-in Microphone
+sound (coreaudio_init): Found output audio device: Built-in Output
+sound (coreaudio_init): Found output audio device: Display Audio (Default)
+sound (coreaudio_init): Found audio device with no outputs: Trust Full HD Webcam
+sound (coreaudio_init): Found output audio device: VB-Cable
+sound (coreaudio_init): Found output audio device: Flerutgangsenhet
+sound (coreaudio_init): Using output audio device: Display Audio
+sound (coreaudio_init): audio frame buffer size in samples min: 14.000000 max: 4096.000000 fragment size: 32, chosen: 32
+sound (coreaudio_init): sampling rate conversion 48000Hz->44100Hz
+Monitor UI: 'C64 Pro*' font found, enabling PETSCII output.
+Monitor UI: using font 'C64 Pro Mono 9' (Family:C64 Pro Mono, Size:9, Variations:-) PETSCII:yes Terminal Scale:1.000000
+sound (coreaudio_start): Started
+Sound: Opened device `coreaudio', speed 48000Hz, fragment size 0.67ms, buffer size 20.00ms
+Copybuffer increase to 102 bytes
+Sound: reSID: MOS8580, filter on, sampling rate 48000Hz - resampling, pass to 21600Hz
+VSync: Sync reset
+Unit 8: RESET.
+AUTOSTART: Loading program 'MAIN'
+AUTOSTART: Entered ROM at $e5cd
+AUTOSTART: Searching for ...
+AUTOSTART: Loading
+AUTOSTART: Entered ROM at $ea21
+AUTOSTART: Ready
+AUTOSTART: Turning Warp mode off.
+AUTOSTART: Starting program.
+AUTOSTART: Restoring FileSystemDevice8 to 1.
+AUTOSTART: Restoring FSDevice8ConvertP00 to 1.
+AUTOSTART: Restoring FSDeviceLongNames to 0.
+AUTOSTART: Done.
+VSync: Sync reset
+Render thread: Initiating render thread 0 shutdown
+Render thread: Joining render thread 0 ...
+OpenGL: Render thread shutdown
+Render thread: Joined render thread 0.
+
+
+LogFileName="/Users/baardbi/Desktop/scrolling/bin/main_ViceLog.txt"
+SaveResourcesOnExit=1
+ConfirmOnExit=0
+MonitorFont="C64 Pro Mono 9"
+Window0Height=762
+Window0Width=896
+Window0Xpos=2180
+Window0Ypos=270
+VICIIPaletteFile="pepto-palold.vpl"
+VICIIExternalPalette=1
+VICIIFilter=0
+JoyPort1Device=0
+KeySet1North=65362
+KeySet1East=65363
+KeySet1South=65364
+KeySet1West=65361
+KeySet1Fire=65505
+JoyDevice2=2
+
+-default -logfile "/Users/baardbi/Desktop/scrolling/bin/main_ViceLog.txt" +confirmonexit -saveres -monitorfont "C64 Pro Mono 9" -windowxpos "2180" -windowypos "270" -windowwidth "896" -windowheight "762" -VICIIfilter "0" -VICIIextpal -VICIIpalette "pepto-palold.vpl" -controlport1device "0" -joydev2 "2"
+Mainlock: VICE thread initiating shutdown
+Mainlock: VICE thread is exiting
+Main: VICE thread has been joined.
+Writing configuration file `/Users/baardbi/.config/vice/vicerc'.
+VIC-II: VSP Bug: safe channels are: 047. Emulation of memory corruption is disabled.
+Sound: Closing device `coreaudio'
+AudioComponentInstanceDispose
+Hotkeys: shutting down.

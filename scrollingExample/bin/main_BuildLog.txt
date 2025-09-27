@@ -1,0 +1,26 @@
+Output dir: /Users/baardbi/Desktop/scrolling/bin
+parsing
+flex pass 1
+flex pass 2
+flex pass 3
+Output pass
+Writing prg file: /Users/baardbi/Desktop/scrolling/bin/main.prg
+
+Memory Map
+----------
+Default-segment:
+  $0801-$080c Basic
+  $080e-$080d Basic End
+  $0810-$088b Game Code
+  $1000-$22ff Music
+  $2400-$24ff Charset Attrib
+  $2500-$2510 Variables
+  $2800-$37ff Sprites
+  $3800-$3fff Charset
+  $4000-$4003 Tables
+  $5000-$52c4 Libraries
+  $7000-$88ff Maps
+  $8900-$a1ff Maps Colors
+
+Writing Vice symbol file: /Users/baardbi/Desktop/scrolling/bin/main.vs
+Writing Symbol file: main.sym
