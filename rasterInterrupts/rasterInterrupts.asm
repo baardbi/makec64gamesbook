@@ -15,7 +15,7 @@ setupRasterInterrupt:
 
 	lda #250	         // Trigger a raster interrupt at scan line 250
 	
-sta $d012
+	sta $d012
 
 	lda #<irq       // Low byte of the address for our 
                                       // interrupt routine
