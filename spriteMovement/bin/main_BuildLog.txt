@@ -1,10 +1,10 @@
-Output dir: /Users/baardbi/Desktop/makec64gamesbookTEMP/spriteMovement/bin
+Output dir: /Users/baardbi/Documents/GitHub/makec64gamesbook/spriteMovement/bin
 parsing
 flex pass 1
 flex pass 2
 flex pass 3
 Output pass
-Writing prg file: /Users/baardbi/Desktop/makec64gamesbookTEMP/spriteMovement/bin/main.prg
+Writing prg file: /Users/baardbi/Documents/GitHub/makec64gamesbook/spriteMovement/bin/main.prg
 
 Memory Map
 ----------
@@ -12,5 +12,5 @@ Default-segment:
   $0801-$080c Basic
   $080e-$0833 Basic End
 
-Writing Vice symbol file: /Users/baardbi/Desktop/makec64gamesbookTEMP/spriteMovement/bin/main.vs
+Writing Vice symbol file: /Users/baardbi/Documents/GitHub/makec64gamesbook/spriteMovement/bin/main.vs
 Writing Symbol file: main.sym
